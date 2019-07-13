@@ -1,4 +1,4 @@
-import 'dart:convert';
+  import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter/material.dart';
@@ -21,7 +21,38 @@ class _HomeState extends State<Home> {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("To do List"),
+        backgroundColor: Colors.deepPurpleAccent,
+        centerTitle: true,
+      ),
+      body: Column(
+        children: <Widget>[
+          Container(
+            padding: EdgeInsets.fromLTRB(15.0, 1.0 , 7.0, 1.0),
+            child: Row(
+              children: <Widget>[
+                Expanded(
+                  child: TextField(
+                    decoration: InputDecoration(
+                        labelText: "New Tasks",
+                        labelStyle: TextStyle(color: Colors.deepPurpleAccent)
+                    ),
+                  ),
+                ),
+                RaisedButton(
+                  color: Colors.deepPurpleAccent,
+                  child: Text("ADD"),
+                  textColor: Colors.white,
+                  onPressed: (){},
+                )
+              ],
+            ),
+          )
+        ],
+      ),
+    );
   }
 
   Future<File> _getFile() async {
