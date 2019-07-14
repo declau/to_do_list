@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Jul 13 20:32:45 BRT 2019
+#Sat Jul 13 20:52:35 BRT 2019
 4.path=classes.dex
 8.set=ASSET
 6.path=flutter_assets/vm_snapshot_data

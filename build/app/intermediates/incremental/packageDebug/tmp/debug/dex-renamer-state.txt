@@ -1,4 +1,4 @@
-#Sat Jul 13 20:32:43 BRT 2019
+#Sat Jul 13 20:52:33 BRT 2019
 base.0=/home/denis/Desktop/estudo-projetos/to_do_list/build/app/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex
